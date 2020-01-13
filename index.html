@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tree Map</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div class="container">
+		<div id="title"></div>
+		<div id="description"></div>
+		<a href="?data=videogames">Video Game Data Set</a> |
+<a href="?data=movies">Movies Data Set</a> |
+<a href="?data=kickstarter">Kickstarter Data Set</a>
+		<hr>
+		<svg id="treemap" width="960" height="570"></svg>
+		<svg id="legend" width="500"></svg>
+	</div>
+	<script src="js/d3.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/bundle.js"></script>
+</body>
+</html>
